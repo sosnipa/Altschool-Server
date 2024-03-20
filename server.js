@@ -6,7 +6,7 @@ const port = 8900;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader("Content-Type", "text/plain");
-  res.end(`Hello! My name is Leonardo Kamsi`); // Replace 'yourName' with your actual name
+  res.end(`Hello! My name is Leonardo Kamsi`); 
 });
 
 server.listen(port, hostname, () => {
